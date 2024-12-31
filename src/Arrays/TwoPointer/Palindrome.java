@@ -3,24 +3,16 @@ package Arrays.TwoPointer;
 //Problem No-125 https://leetcode.com/problems/valid-palindrome/description/?envType=problem-list-v2&envId=two-pointers
 public class Palindrome {
     public boolean isPalindrome(String s) {
-        int n = s.length();
-        int l = 0;
-        int r = n - 1;
+        s = s.toLowerCase().replaceAll("[^a-z0-9]", "");
 
-        while (l <= r) {
-            char lc = s.charAt(l);
-            char rc = s.charAt(r);
+        int i = 0, j = s.length() - 1;
 
-            if (lc >= 'A' && lc <= 'Z') lc = (char) (lc + 32);
-            if (rc >= 'A' && rc <= 'Z') rc = (char) (rc + 32);
-
-            if (!((lc >= 'a' && lc <= 'z') || (lc >= '0' && lc <= '9'))) l++;
-            else if (!((rc >= 'a' && rc <= 'z') || (rc >= '0' && rc <= '9'))) r--;
-            else {
-                if (lc != rc) return false;
-                l++;
-                r--;
+        while (i < j) {
+            if (s.charAt(i) != s.charAt(j)) {
+                return false;
             }
+            i++;
+            j--;
         }
 
         return true;
