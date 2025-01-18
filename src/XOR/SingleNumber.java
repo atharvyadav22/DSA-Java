@@ -1,4 +1,4 @@
-package Arrays.XOR;
+package XOR;
 
 //Problem No-136 https://leetcode.com/problems/single-number/?envType=problem-list-v2&envId=array
 public class SingleNumber {

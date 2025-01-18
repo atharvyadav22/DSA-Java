@@ -1,4 +1,4 @@
-package Arrays.TwoPointer;
+package TwoPointer;
 
 //Problem No-125 https://leetcode.com/problems/valid-palindrome/description/?envType=problem-list-v2&envId=two-pointers
 public class Palindrome {

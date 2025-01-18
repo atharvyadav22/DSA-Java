@@ -1,4 +1,4 @@
-package Arrays.TwoPointer;
+package TwoPointer;
 
 //Problem No-88 https://leetcode.com/problems/merge-sorted-array/?envType=problem-list-v2&envId=two-pointers
 public class MergeArray {

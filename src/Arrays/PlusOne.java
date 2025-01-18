@@ -1,4 +1,4 @@
-package Arrays.BruteForce;
+package Arrays;
 
 //Problem No-66 https://leetcode.com/problems/plus-one/description/?envType=problem-list-v2&envId=array
 public class PlusOne {

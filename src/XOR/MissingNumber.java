@@ -1,4 +1,4 @@
-package Arrays.XOR;
+package XOR;
 
 //Problem No-268 https://leetcode.com/problems/missing-number/description/?envType=problem-list-v2&envId=array
 public class MissingNumber {

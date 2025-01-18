@@ -1,4 +1,4 @@
-package Arrays.TwoPointer;
+package TwoPointer;
 
 //Problem No-27 https://leetcode.com/problems/remove-element/?envType=problem-list-v2&envId=array
 public class RemoveElement {

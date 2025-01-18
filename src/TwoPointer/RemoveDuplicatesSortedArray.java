@@ -1,4 +1,4 @@
-package Arrays.TwoPointer;
+package TwoPointer;
 
 //Problem No-26 https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&envId=array
 public class RemoveDuplicatesSortedArray {

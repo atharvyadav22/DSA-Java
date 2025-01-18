@@ -1,4 +1,4 @@
-package Arrays.Kadanes;
+package Kadanes;
 
 //Problem No-121 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=problem-list-v2&envId=array
 public class BestTimeToBuyAndSellStock {
