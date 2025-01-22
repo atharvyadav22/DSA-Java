@@ -1,4 +1,4 @@
-package Arrays;
+package Strings;
 
 //Problem No-383 https://leetcode.com/problems/ransom-note/description/
 public class RansomNote {

@@ -1,4 +1,4 @@
-package Arrays;
+package Strings;
 
 //Problem No-205 https://leetcode.com/problems/isomorphic-strings/description/
 public class IsomorphicStrings {
