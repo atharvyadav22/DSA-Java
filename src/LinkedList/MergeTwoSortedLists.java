@@ -1,22 +1,9 @@
 package LinkedList;
 
+import LinkedList.LinkedListModel.ListNode;
+
 //Problem No-21 https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=problem-list-v2&envId=linked-list
 public class MergeTwoSortedLists {
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
-    //Actual Code
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode dummy = new ListNode(-1);
         ListNode current = dummy;
