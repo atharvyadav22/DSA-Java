@@ -1,4 +1,6 @@
-package LinkedList.LinkedListModel;
+package LinkedList;
+
+import LinkedList.LinkedListModel.ListNode;
 
 //Problem No-141 https://leetcode.com/problems/linked-list-cycle/description/?envType=problem-list-v2&envId=linked-list
 public class LinkedListCycle {
