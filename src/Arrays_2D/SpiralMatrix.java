@@ -3,6 +3,7 @@ package Arrays_2D;
 import java.util.ArrayList;
 import java.util.List;
 
+//Problem No-54 https://leetcode.com/problems/spiral-matrix/description/
 public class SpiralMatrix {
 
     public static List<Integer> spiralOrder(int[][] matrix) {
@@ -10,7 +11,7 @@ public class SpiralMatrix {
         return printSpiral(matrix);
     }
 
-    public static List<Integer> printSpiral(int[][] matrix) {
+    private static List<Integer> printSpiral(int[][] matrix) {
         List<Integer> list = new ArrayList<>();
 
         int startRow = 0, endRow = matrix.length - 1;
