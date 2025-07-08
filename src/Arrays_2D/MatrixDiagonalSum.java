@@ -10,7 +10,7 @@ public class MatrixDiagonalSum {
 
     private static int calculateSum(int[][] mat) {
 
-        int sum = 0, length = mat.length;
+        int sum = 0;
 
         for (int i = 0; i < mat.length; i++) {
 
