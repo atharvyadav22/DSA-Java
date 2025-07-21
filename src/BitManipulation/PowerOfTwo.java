@@ -5,7 +5,8 @@ public class PowerOfTwo {
 
     public static boolean isPowerOfTwo(int n) {
 
-        return (n & (n - 1)) == 0;
+        if(n <= 0) return false;
+        else return (n & (n - 1)) == 0;
 
     }
 }
