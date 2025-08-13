@@ -12,7 +12,7 @@ public class IntersectionOfTwoLinkedList {
 
         if (headA == null || headB == null) return null;
 
-        HashSet<ListNode> set = new HashSet();
+        HashSet<ListNode> set = new HashSet<>();
 
         while (headA != null) {
             set.add(headA);
