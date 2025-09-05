@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Problem No- 94 https://leetcode.com/problems/binary-tree-inorder-traversal/description/?envType=problem-list-v2&envId=binary-tree
-public class PostOrderTraversal {
+public class InOrderTraversal {
 
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
