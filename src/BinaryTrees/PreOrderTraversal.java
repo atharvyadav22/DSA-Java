@@ -1,4 +1,6 @@
-package BinaryTrees.BinaryTreeModalClass;
+package BinaryTrees;
+
+import BinaryTrees.BinaryTreeModalClass.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
