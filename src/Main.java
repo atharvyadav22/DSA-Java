@@ -1,4 +1,7 @@
+import Arrays.MajorityElement2;
 
-void main() {
+public class Main {
+    public static void main(String[] args) {
 
+    }
 }
